@@ -29,7 +29,7 @@
         "memoryReservation": null,
         "volumesFrom": [],
         "stopTimeout": null,
-        "image": "325286277003.dkr.ecr.us-east-2.amazonaws.com/ecr_simetrik:latest",
+        "image": "ecr_simetrik",
         "startTimeout": null,
         "firelensConfiguration": null,
         "dependsOn": null,
@@ -56,7 +56,7 @@
       "EC2",
       "FARGATE"
     ],
-    "taskDefinitionArn": "arn:aws:ecs:us-east-2:325286277003:task-definition/simetrik:3",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-2:325286277003:task-definition/simetrik",
     "family": "simetrik",
     "requiresAttributes": [
       {
