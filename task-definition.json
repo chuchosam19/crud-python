@@ -1,6 +1,6 @@
 {
   "ipcMode": null,
-  "executionRoleArn": "arn:aws:iam::325286277003:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+  "executionRoleArn": "arn:aws:iam::325286277003:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
       "dnsSearchDomains": null,
@@ -56,7 +56,7 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-2:325286277003:task-definition/simetrik:4",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-2:325286277003:task-definition/simetrik",
   "family": "simetrik",
   "requiresAttributes": [
     {
@@ -88,7 +88,7 @@
     "cpuArchitecture": null
   },
   "cpu": "1024",
-  "revision": 4,
+  "revision": 10,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
